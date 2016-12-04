@@ -1,8 +1,11 @@
 *{margin:0;padding:0}
 .flow{overflow:hidden}
+body{
+	    background: rgba(218, 218, 226, 0.48);
+}
 .width{}
 .header_area{
-	background: rgb(195, 192, 192);
+	
     text-align: center;
 }
 .header_area h2 {
@@ -10,7 +13,9 @@
     font-size: 90px;
     text-transform: uppercase;
 	margin-top: 10px;
+
 }
+
 .header_area p {
 	padding: 10px 270px;
     font-size: 17px;
@@ -18,7 +23,7 @@
     margin-bottom: 20px;
 }
 .content_area{
-	background: rgb(195, 192, 192);
+	
 }
 .width{
 	width: 1256px;
@@ -32,13 +37,64 @@
     border: 1px solid rgba(128, 128, 128, 0.16);
     border-top: 2px;
 }
-.midnight h2 a{
-	text-align: center;
-    margin-bottom: 10px;
-	font-family: 'Maitree', serif;
-	text-decoration: none;
-    display: block;
+
+.midnight_two{
+	width: 416px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-top: 2px;
 }
+.midnight_three{
+	width: 416px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-top: 2px;
+}
+.midnight_four{
+	width: 416px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-top: 2px;
+}
+.midnight_five{
+	width: 416px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-top: 2px;
+}
+.midnight_six{
+	width: 416px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-top: 2px;
+}
+.midnight_seven{
+	width: 416px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-top: 2px;
+}
+.midnight_eight{
+	width: 416px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-top: 2px;
+}
+.midnight_nine{
+	width: 416px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-top: 2px;
+}
+
 .top{
 	width: 417px;
 }
@@ -98,6 +154,105 @@
 	text-decoration: none;
     display: block;
 }
+.hover{
+   
+    color: #fff;
+    position: absolute !important;
+    z-index: 999 !important;
+    padding: 14px;
+    margin-top: -120px;
+    margin-left: 39px;
+    display: none;
+}
+.hover h2{}
+.hover a{
+	    color: gray;
+    text-decoration: none;
+    display: block;
+    margin-top: 13px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+ .hovertwo{
+	
+    color: #fff;
+    position: absolute !important;
+    z-index: 999 !important;
+    padding: 14px;
+    margin-top: -120px;
+    margin-left: 39px;
+    display: none;
+ }
+  .hovertwo h2{}
+  .hovertwo a{
+	color: gray;
+    text-decoration: none;
+    display: block;
+    margin-top: 13px;
+    font-size: 18px;
+    margin-left: -122px;
+  }
+ .fff{
+	
+    color: #fff;
+    position: absolute !important;
+    z-index: 999 !important;
+    padding: 14px;
+    margin-top: -120px;
+    margin-left: 39px;
+    display: none; 
+ }
+  .fff h2{}
+  .fff a{
+	color: gray;
+    text-decoration: none;
+    display: block;
+    margin-top: 14px;
+    font-size: 18px;
+    margin-left: -149px;
+  }
+.rrr{
+ 
+    color: #fff;
+    position: absolute !important;
+    z-index: 999 !important;
+    padding: 14px;
+    margin-top: -97px;
+    margin-left: 99px;
+    display: none;
+ }
+ .rrr h2{}
+ .rrr a{
+	color: gray;
+    text-decoration: none;
+    display: block;
+    margin-top: 16px;
+    font-size: 18px;
+    margin-left: 72px;
+
+ }
+ .nnn{
+	 
+	
+    color: #fff;
+    position: absolute !important;
+    z-index: 999 !important;
+    padding: 14px;
+    margin-top: -97px;
+    margin-left: 99px;
+    display: none;
+ }
+ .nnn h2{}
+ .nnn a{
+	color: gray;
+    text-decoration: none;
+    display: block;
+    margin-top: 4px;
+    font-size: 18px;
+    margin-left: 89px;
+ }
+
+	
 .one{
     background: #8BC34A;
     height: 40px;
@@ -110,6 +265,21 @@
 	
 	
 }
+.one:hover .more a {
+	 display: block; 
+	background:red;
+	position: absolute; 
+	top: 0; 
+	left: 0;
+}
+.more{
+	height: 83px;
+    margin-top: -23px;
+    position: absolute;
+    width: 300px;
+    margin-left: 82px;display:none
+}
+.more a{}
 .two{
 	background: #607D8B;
     height: 40px;
@@ -120,6 +290,21 @@
     margin-top: 4px;
     border: 2px solid gray;
 }
+.one_text{
+height: 82px;
+    width: 100px;
+    position: absolute !important;
+    z-index: 999 !important;
+    background: #8bc34a;
+    color: #fff;
+    margin-top: -119px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 41px;
+	display:none;
+	
+}
+
 .three{
 	background: rgba(255, 87, 34, 0.68);
     height: 86px;
@@ -245,7 +430,7 @@
     display: block;
 }
 .footer_area{
-	background: #c3c0c0;
+	
     height: 78px;
 }
 .footer{}
